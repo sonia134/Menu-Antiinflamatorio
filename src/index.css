@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+  }
+}
+
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes pulseCta {
+  0%, 100% {
+    box-shadow: 0 8px 24px rgba(122, 182, 72, 0.5);
+  }
+  50% {
+    box-shadow: 0 8px 36px rgba(122, 182, 72, 0.85);
+    transform: scale(1.015);
+  }
+}
+
+.btn-cta-pulse {
+  animation: pulseCta 3s ease-in-out infinite;
+}
+
+/* Custom CTA Button standard style */
+.btn-cta-standard {
+  background-color: #7ab648;
+  color: #1a3a1a;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(122, 182, 72, 0.4);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-cta-standard:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(122, 182, 72, 0.6);
+}
+
+.soft-card-shadow {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}

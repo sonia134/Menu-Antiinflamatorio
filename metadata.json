@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Cocina Antiinflamatoria Express",
+  "description": "Página de ventas de alta conversión para el sistema de recetas Cocina Antiinflamatoria Express",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
