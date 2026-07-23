@@ -41,7 +41,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSamp
         <div className="relative my-4 group cursor-pointer" onClick={onCtaClick}>
           <div className="relative w-64 sm:w-80 md:w-96 animate-float mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.6)]">
             <img 
-              src="/src/assets/images/ebook_cover_clean_1784665123642.jpg" 
+              src="https://i.postimg.cc/3xDpL7ds/menu-antiinflamatorio-book-1784763454049.webp" 
               alt="Ebook Cocina Antiinflamatoria Express" 
               referrerPolicy="no-referrer"
               className="w-full h-auto rounded-lg border-2 border-[#7ab648]/40 object-cover shadow-2xl"
