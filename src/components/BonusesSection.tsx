@@ -11,7 +11,7 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onCtaClick }) =>
       number: "BONO 1",
       title: "Guía de Reemplazos Inteligentes & Lista de Compras Express",
       format: "PDF Interactivo Móvil",
-      value: "$7,00",
+      value: "$7,00 USD",
       objection: "No sé qué comprar ni cómo sustituir ingredientes si algo no me gusta.",
       description: "Aprende a sustituir lácteos, gluten o azúcares refinados con alternativas deliciosas sin perder el sabor de tus platillos favoritos.",
       icon: "🛒"
@@ -20,7 +20,7 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onCtaClick }) =>
       number: "BONO 2",
       title: "Recetario de Bebidas & Tisanas Anti-Hinchazón Inmediata",
       format: "Ebook Especializado",
-      value: "$7,00",
+      value: "$7,00 USD",
       objection: "A veces necesito un alivio rápido después de una comida pesada fuera.",
       description: "15 infusiones, elíxires dorados y smoothies digestivos para tomar por las mañanas o después de cenar para aplanar el abdomen.",
       icon: "☕"
@@ -29,7 +29,7 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onCtaClick }) =>
       number: "BONO 3",
       title: "Plantilla Organizadora de Menú & Asistente IA de Cocina",
       format: "Acceso Digital Exclusivo",
-      value: "$10,00",
+      value: "$10,00 USD",
       objection: "Me cuesta trabajo planificar la lista semanal y organizar los tiempos.",
       description: "Un organizador digital semanal listo para imprimir o usar en tu teléfono, más promts de IA para crear combinaciones según lo que tengas en la nevera.",
       icon: "📱"

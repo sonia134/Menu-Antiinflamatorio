@@ -64,7 +64,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSamp
             onClick={onCtaClick}
             className="w-full btn-cta-standard text-lg sm:text-xl py-4 sm:py-5 px-8 font-heading font-extrabold flex items-center justify-center gap-2 text-[#1a3a1a] btn-cta-pulse cursor-pointer"
           >
-            QUIERO EMPEZAR HOY — $7,99
+            QUIERO EMPEZAR HOY — $7,99 USD
           </button>
 
           {/* Micro-copy under button */}

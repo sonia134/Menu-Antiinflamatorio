@@ -14,7 +14,7 @@ export const AnnouncementBar: React.FC<AnnouncementBarProps> = ({ onCtaClick }) 
       <div className="max-w-[1200px] mx-auto flex items-center justify-between gap-2 text-center">
         <div className="w-full flex items-center justify-center gap-2 cursor-pointer hover:underline" onClick={onCtaClick}>
           <Sparkles className="w-4 h-4 shrink-0 text-[#1a3a1a] animate-spin" style={{ animationDuration: '4s' }} />
-          <span>🌿 Precio de Lanzamiento: <strong className="font-heading font-extrabold text-[#1a3a1a] text-sm sm:text-base">$7,99</strong> — Acceso Inmediato + Todos los Bonos Incluidos</span>
+          <span>🌿 Precio de Lanzamiento: <strong className="font-heading font-extrabold text-[#1a3a1a] text-sm sm:text-base">$7,99 USD</strong> — Acceso Inmediato + Todos los Bonos Incluidos</span>
         </div>
         <button 
           onClick={onCtaClick}

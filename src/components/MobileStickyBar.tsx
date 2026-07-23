@@ -12,11 +12,11 @@ export const MobileStickyBar: React.FC<MobileStickyBarProps> = ({ onCtaClick }) 
     >
       {/* Left price block */}
       <div className="flex flex-col leading-none">
-        <span className="text-[11px] text-white/50 line-through decoration-[#ff6b6b] mb-0.5">
-          Antes $20,00
+        <span className="text-[10px] text-white/50 line-through decoration-[#ff6b6b] mb-0.5">
+          Antes $20,00 USD
         </span>
-        <span className="font-heading font-extrabold text-[#7ab648] text-xl">
-          $7,99
+        <span className="font-heading font-extrabold text-[#7ab648] text-lg">
+          $7,99 USD
         </span>
       </div>
 

@@ -210,7 +210,7 @@ export const RecipePreviewModal: React.FC<RecipePreviewModalProps> = ({
                 }}
                 className="btn-cta-standard text-sm sm:text-base py-3 px-6 font-heading font-bold text-[#1a3a1a] inline-flex items-center justify-center gap-2 cursor-pointer w-full sm:w-auto"
               >
-                DESCARGAR LAS +100 RECETAS POR $7,99 <ArrowRight className="w-4 h-4" />
+                DESCARGAR LAS +100 RECETAS POR $7,99 USD <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>

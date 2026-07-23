@@ -3,11 +3,11 @@ import { CheckCircle } from 'lucide-react';
 
 export const ValueAnchorSection: React.FC = () => {
   const valueItems = [
-    { title: "Recetario Digital Principal 'Cocina Antiinflamatoria Express' (+100 Recetas)", value: "$20,00" },
-    { title: "Guía de Planificación Semanal & Batch Cooking Express", value: "$15,00" },
-    { title: "Bono #1: Guía de Reemplazos Inteligentes & Lista de Compras", value: "$7,00" },
-    { title: "Bono #2: Recetario de Bebidas & Tisanas Anti-Hinchazón", value: "$7,00" },
-    { title: "Bono #3: Plantilla Organizadora & Prompts de Asistente IA", value: "$10,00" },
+    { title: "Recetario Digital Principal 'Cocina Antiinflamatoria Express' (+100 Recetas)", value: "$20,00 USD" },
+    { title: "Guía de Planificación Semanal & Batch Cooking Express", value: "$15,00 USD" },
+    { title: "Bono #1: Guía de Reemplazos Inteligentes & Lista de Compras", value: "$7,00 USD" },
+    { title: "Bono #2: Recetario de Bebidas & Tisanas Anti-Hinchazón", value: "$7,00 USD" },
+    { title: "Bono #3: Plantilla Organizadora & Prompts de Asistente IA", value: "$10,00 USD" },
   ];
 
   return (
@@ -39,7 +39,7 @@ export const ValueAnchorSection: React.FC = () => {
             {/* Total Value Row */}
             <div className="flex items-center justify-between p-4 rounded-xl bg-[#7ab648]/20 border border-[#7ab648] font-heading text-base sm:text-lg mt-4">
               <span className="font-extrabold text-white">VALOR TOTAL REAL DE TODO EL PACK:</span>
-              <span className="font-extrabold text-[#7ab648] text-xl sm:text-2xl">$59,00</span>
+              <span className="font-extrabold text-[#7ab648] text-xl sm:text-2xl">$59,00 USD</span>
             </div>
           </div>
         </div>
@@ -50,18 +50,18 @@ export const ValueAnchorSection: React.FC = () => {
         {/* Price Block */}
         <div className="text-center">
           <p className="font-body italic text-lg sm:text-xl text-white/80 mb-2">
-            Pero hoy no pagas $59. Ni $20.
+            Pero hoy no pagas $59 USD. Ni $20 USD.
           </p>
 
           <div className="inline-block text-[#ff6b6b] text-2xl sm:text-3xl font-heading font-bold line-through decoration-[#ff6b6b] mb-2">
-            $20,00
+            $20,00 USD
           </div>
 
-          {/* Final Price $7,99 */}
+          {/* Final Price $7,99 USD */}
           <div 
-            className="font-heading font-extrabold text-6xl sm:text-[72px] text-[#7ab648] leading-none my-2 drop-shadow-[0_0_32px_rgba(122,182,72,0.4)] tracking-tight"
+            className="font-heading font-extrabold text-5xl sm:text-[68px] text-[#7ab648] leading-none my-2 drop-shadow-[0_0_32px_rgba(122,182,72,0.4)] tracking-tight"
           >
-            $7,99
+            $7,99 USD
           </div>
 
           <p className="font-body italic text-white/70 text-sm sm:text-base">

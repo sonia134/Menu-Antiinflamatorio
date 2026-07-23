@@ -17,7 +17,7 @@ export const CtaSectionTwo: React.FC<CtaSectionTwoProps> = ({ onCtaClick }) => {
     "Acceso inmediato por email",
     "Todos los bonos incluidos",
     "Acceso de por vida",
-    "Precio de lanzamiento $7,99"
+    "Precio de lanzamiento $7,99 USD"
   ];
 
   return (
@@ -48,7 +48,7 @@ export const CtaSectionTwo: React.FC<CtaSectionTwoProps> = ({ onCtaClick }) => {
 
         {/* Bridge Text */}
         <p className="font-heading font-bold text-[#7ab648] text-xl sm:text-2xl mb-8">
-          O puedes cambiar todo eso hoy, por solo $7,99.
+          O puedes cambiar todo eso hoy, por solo $7,99 USD.
         </p>
 
         {/* CTA Button */}

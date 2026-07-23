@@ -9,7 +9,7 @@ export const DeliverablesSection: React.FC = () => {
       title: "Recetario Digital Principal: Cocina Antiinflamatoria Express",
       format: "PDF Digital HD de Descarga Inmediata (+100 Recetas)",
       description: "Más de 100 recetas antiinflamatorias probadas para desayunos, almuerzos, cenas, aderezos y snacks. Cada receta incluye fotos HD, tiempo de preparación exacto (15-30 min), lista de ingredientes sencillos e instrucciones paso a paso.",
-      originalValue: "$20,00",
+      originalValue: "$20,00 USD",
       lucideIcon: BookOpen
     },
     {
@@ -18,7 +18,7 @@ export const DeliverablesSection: React.FC = () => {
       title: "Guía de Planificación y Batch Cooking Express",
       format: "Manual Digital Interactivo + Plantillas Editables",
       description: "El sistema paso a paso para cocinar en 2 horas los domingos y tener la comida organizada para toda la semana. Aprende las técnicas de almacenamiento anti-oxidación para conservar verduras frescas por días.",
-      originalValue: "$15,00",
+      originalValue: "$15,00 USD",
       lucideIcon: Calendar
     }
   ];

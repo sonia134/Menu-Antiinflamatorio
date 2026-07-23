@@ -8,7 +8,7 @@ interface CtaSectionProps {
 }
 
 export const CtaSection: React.FC<CtaSectionProps> = ({
-  buttonText = "SÍ, QUIERO TRANSFORMAR MI COCINA — $7,99",
+  buttonText = "SÍ, QUIERO TRANSFORMAR MI COCINA — $7,99 USD",
   onCtaClick,
   showUrgencyText = true
 }) => {

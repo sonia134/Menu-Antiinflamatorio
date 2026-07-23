@@ -18,7 +18,7 @@ export const UrgencySection: React.FC = () => {
 
         {/* Explanatory Paragraph */}
         <p className="font-body text-[#555] text-base sm:text-[17px] leading-relaxed max-w-[600px] mx-auto mb-6">
-          El precio promocional de <strong className="text-[#1a3a1a] font-bold">$7,99</strong> corresponde únicamente a la fase de lanzamiento oficial del sistema. Una vez finalizado este cupo promocional, el valor volverá a su precio regular de $20,00.
+          El precio promocional de <strong className="text-[#1a3a1a] font-bold">$7,99 USD</strong> corresponde únicamente a la fase de lanzamiento oficial del sistema. Una vez finalizado este cupo promocional, el valor volverá a su precio regular de $20,00 USD.
         </p>
 
         {/* Highlighted Quote Box */}

@@ -30,8 +30,8 @@ export const TrustSection: React.FC<TrustSectionProps> = ({ onCtaClick }) => {
           <span className="text-xs font-heading font-bold text-gray-500 uppercase tracking-widest block mb-1">
             PRECIO DE LANZAMIENTO
           </span>
-          <div className="font-heading font-extrabold text-4xl sm:text-[52px] text-[#1a3a1a] leading-none mb-2">
-            $7,99
+          <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#1a3a1a] leading-none mb-2">
+            $7,99 USD
           </div>
           <p className="font-body text-[#7ab648] font-bold text-sm sm:text-base italic flex items-center justify-center gap-1">
             <Sparkles className="w-4 h-4" /> Menos que un café. Acceso para siempre.
@@ -50,7 +50,7 @@ export const TrustSection: React.FC<TrustSectionProps> = ({ onCtaClick }) => {
           onClick={onCtaClick}
           className="btn-cta-standard w-full max-w-sm py-4 px-6 text-base sm:text-lg font-heading font-extrabold text-[#1a3a1a] cursor-pointer"
         >
-          OBTENER ACCESO POR $7,99
+          OBTENER ACCESO POR $7,99 USD
         </button>
 
       </div>

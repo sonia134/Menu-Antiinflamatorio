@@ -9,7 +9,7 @@ export const FaqSection: React.FC = () => {
     {
       id: 1,
       question: "¿Cómo recibo el material después de realizar la compra?",
-      answer: "Inmediatamente después de completar tu pago seguro por $7,99, recibirás un correo electrónico automático con los enlaces directos para descargar todo el contenido (recetario digital + guías + bonos) en formato PDF HD compatible con cualquier teléfono, tablet o computadora."
+      answer: "Inmediatamente después de completar tu pago seguro por $7,99 USD, recibirás un correo electrónico automático con los enlaces directos para descargar todo el contenido (recetario digital + guías + bonos) en formato PDF HD compatible con cualquier teléfono, tablet o computadora."
     },
     {
       id: 2,
@@ -28,8 +28,8 @@ export const FaqSection: React.FC = () => {
     },
     {
       id: 5,
-      question: "¿El pago de $7,99 es único o hay cobros mensuales ocultos?",
-      answer: "Es un pago único y definitivo de $7,99. No existe ninguna suscripción ni cobros recurrentes. Tendrás acceso de por vida al material descargable."
+      question: "¿El pago de $7,99 USD es único o hay cobros mensuales ocultos?",
+      answer: "Es un pago único y definitivo de $7,99 USD. No existe ninguna suscripción ni cobros recurrentes. Tendrás acceso de por vida al material descargable."
     },
     {
       id: 6,

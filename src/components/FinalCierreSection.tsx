@@ -15,7 +15,7 @@ export const FinalCierreSection: React.FC<FinalCierreSectionProps> = ({ onCtaCli
           onClick={onCtaClick}
           className="w-full sm:w-auto min-h-[64px] py-4 px-8 md:px-12 btn-cta-standard text-lg sm:text-xl font-heading font-extrabold text-[#1a3a1a] btn-cta-pulse cursor-pointer transition-all mb-4"
         >
-          OBTENER ACCESO INMEDIATO — $7,99
+          OBTENER ACCESO INMEDIATO — $7,99 USD
         </button>
 
         {/* Microcopy */}

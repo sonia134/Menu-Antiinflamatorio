@@ -58,8 +58,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                     Pack Digital 'Cocina Antiinflamatoria Express'
                   </span>
                   <div className="text-right">
-                    <span className="text-xs text-white/50 line-through mr-2">$20,00</span>
-                    <span className="font-heading font-extrabold text-[#7ab648] text-xl">$7,99</span>
+                    <span className="text-xs text-white/50 line-through mr-2">$20,00 USD</span>
+                    <span className="font-heading font-extrabold text-[#7ab648] text-xl">$7,99 USD</span>
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                       <Sparkles className="w-5 h-5 animate-spin" /> PROCESANDO ACCESO SEGURO...
                     </span>
                   ) : (
-                    <span>COMPLETAR MI PEDIDO Y DESCARGAR — $7,99</span>
+                    <span>COMPLETAR MI PEDIDO Y DESCARGAR — $7,99 USD</span>
                   )}
                 </button>
               </form>
@@ -175,7 +175,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                 ¡Felicitaciones {name || 'amiga'}! 🎉
               </h3>
               <p className="font-body text-white/90 text-sm sm:text-base max-w-md mx-auto leading-relaxed">
-                Tu compra de <strong>Cocina Antiinflamatoria Express ($7,99)</strong> fue procesada correctamente.
+                Tu compra de <strong>Cocina Antiinflamatoria Express ($7,99 USD)</strong> fue procesada correctamente.
               </p>
             </div>
 

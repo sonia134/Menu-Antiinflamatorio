@@ -82,7 +82,7 @@ export default function App() {
 
       {/* SECCIÓN 11 — CTA #1 */}
       <CtaSection 
-        buttonText="SÍ, QUIERO TRANSFORMAR MI COCINA — $7,99" 
+        buttonText="SÍ, QUIERO TRANSFORMAR MI COCINA — $7,99 USD" 
         onCtaClick={handleOpenCheckout} 
       />
 
