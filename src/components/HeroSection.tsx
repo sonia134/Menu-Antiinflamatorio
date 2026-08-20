@@ -38,21 +38,21 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSamp
         </p>
 
         {/* Digital Kit / Book Mockup */}
-        <div className="relative my-6 group cursor-pointer" onClick={onCtaClick}>
-          <div className="relative w-full max-w-[560px] sm:max-w-[680px] md:max-w-[760px] animate-float mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.6)]">
+        <div className="relative my-8 group cursor-pointer w-full flex justify-center" onClick={onCtaClick}>
+          <div className="relative w-full max-w-[640px] sm:max-w-[840px] md:max-w-[980px] lg:max-w-[1040px] animate-float mx-auto drop-shadow-[0_25px_45px_rgba(0,0,0,0.65)]">
             <img 
               src="https://i.postimg.cc/cCS0Z7nH/Gemini-Generated-Image-g3rr36g3rr36g3rr.jpg" 
               alt="Pack Cocina Antiinflamatoria Express y Bonos" 
               referrerPolicy="no-referrer"
-              className="w-full h-auto rounded-xl border-2 border-[#7ab648]/40 object-cover shadow-2xl"
+              className="w-full h-auto rounded-2xl border-2 border-[#7ab648]/40 object-cover shadow-2xl transition-transform duration-500 group-hover:scale-[1.01]"
             />
             {/* Digital Bestseller Badge */}
-            <div className="absolute -top-3 -right-2 sm:-right-3 bg-[#7ab648] text-[#1a3a1a] font-heading font-extrabold text-xs sm:text-sm px-3.5 py-1.5 rounded-full shadow-lg border border-white/20 transform rotate-3">
+            <div className="absolute -top-3 sm:-top-4 -right-2 sm:-right-4 bg-[#7ab648] text-[#1a3a1a] font-heading font-extrabold text-xs sm:text-base px-4 py-2 rounded-full shadow-xl border border-white/20 transform rotate-3">
               ¡SISTEMA DIGITAL COMPLETO!
             </div>
             
             {/* Instant Download Tag */}
-            <div className="absolute -bottom-3 -left-2 sm:-left-3 bg-[#1a3a1a] border border-[#7ab648] text-white font-heading font-bold text-xs sm:text-sm px-3.5 py-1.5 rounded-md shadow-lg flex items-center gap-1.5">
+            <div className="absolute -bottom-3 sm:-bottom-4 -left-2 sm:-left-4 bg-[#1a3a1a] border border-[#7ab648] text-white font-heading font-bold text-xs sm:text-sm px-4 py-2 rounded-lg shadow-xl flex items-center gap-2">
               <ChefHat className="w-4 h-4 text-[#7ab648]" /> +100 Recetas Express + Bonos
             </div>
           </div>
