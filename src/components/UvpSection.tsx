@@ -45,9 +45,45 @@ export const UvpSection: React.FC = () => {
         </div>
 
         {/* Method Description */}
-        <p className="font-body text-white/90 text-base sm:text-[17px] leading-relaxed max-w-[700px] mx-auto">
+        <p className="font-body text-white/90 text-base sm:text-[17px] leading-relaxed max-w-[700px] mx-auto mb-8">
           Un recetario y guía estratégica digital concebido para enseñarte cómo combinar alimentos reales y sabrosos que desinflaman tu cuerpo de manera natural, permitiéndote preparar desayunos, almuerzos, cenas y snacks en 15 a 30 minutos sin complicarte la vida.
         </p>
+
+        {/* Recipe / Meal Preview Images */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-[1050px] mx-auto items-stretch">
+          <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-[#7ab648]/40 bg-black/20 p-1 transition-transform duration-300 hover:scale-[1.02] flex flex-col justify-center">
+            <img 
+              src="https://i.postimg.cc/wB08mKn9/images-DESAYUNO.jpg" 
+              alt="Ejemplos de desayunos antiinflamatorios express" 
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover rounded-xl shadow-inner"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-[#7ab648]/40 bg-black/20 p-1 transition-transform duration-300 hover:scale-[1.02] flex flex-col justify-center">
+            <img 
+              src="https://i.postimg.cc/VNVSWhbV/images-ALMUERZO.jpg" 
+              alt="Ejemplos de almuerzos antiinflamatorios express" 
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover rounded-xl shadow-inner"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-[#7ab648]/40 bg-black/20 p-1 transition-transform duration-300 hover:scale-[1.02] flex flex-col justify-center">
+            <img 
+              src="https://i.postimg.cc/v8XJ2dmg/images-CENA.jpg" 
+              alt="Ejemplos de cenas antiinflamatorias express" 
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover rounded-xl shadow-inner"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-[#7ab648]/40 bg-black/20 p-1 transition-transform duration-300 hover:scale-[1.02] flex flex-col justify-center">
+            <img 
+              src="https://i.postimg.cc/nrM0wgdf/images-POSTRES.jpg" 
+              alt="Ejemplos de postres y snacks antiinflamatorios express" 
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover rounded-xl shadow-inner"
+            />
+          </div>
+        </div>
 
       </div>
     </section>
