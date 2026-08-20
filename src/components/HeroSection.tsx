@@ -1,12 +1,12 @@
 import React from 'react';
-import { ShieldCheck, Mail, Infinity, CheckCircle, ChefHat, Eye } from 'lucide-react';
+import { ShieldCheck, Mail, Infinity, ChefHat } from 'lucide-react';
 
 interface HeroSectionProps {
   onCtaClick: () => void;
-  onOpenSampleRecipe: () => void;
+  onOpenSampleRecipe?: () => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSampleRecipe }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick }) => {
   return (
     <section className="relative bg-[#1a3a1a] text-white pt-24 pb-16 md:pt-32 md:pb-24 px-5 md:px-12 overflow-hidden min-h-screen flex flex-col justify-center">
       {/* Subtle organic background pattern overlay */}
@@ -58,18 +58,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSamp
           </div>
         </div>
 
-        {/* Secondary preview sample recipe trigger */}
-        <div className="mt-6">
-          <button 
-            onClick={onOpenSampleRecipe}
-            className="inline-flex items-center gap-2 text-white/90 hover:text-[#7ab648] text-sm sm:text-base font-body underline transition-colors bg-white/5 hover:bg-white/10 px-5 py-2.5 rounded-full border border-white/10"
-          >
-            <Eye className="w-4 h-4 text-[#7ab648]" /> Ver vista previa de recetario de muestra gratis
-          </button>
-        </div>
-
         {/* Trust Badges */}
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm font-body text-white/90">
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm font-body text-white/90">
           <div className="bg-white/10 backdrop-blur-sm border border-white/10 px-4 py-2 rounded-full flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-[#7ab648]" />
             <span>🔒 Pago 100% Seguro</span>
