@@ -7,7 +7,7 @@ export const ValueAnchorSection: React.FC = () => {
     { title: "Guía de Planificación Semanal & Batch Cooking Express", value: "$15,00 USD" },
     { title: "Bono #1: Guía de Reemplazos Inteligentes & Lista de Compras", value: "$7,00 USD" },
     { title: "Bono #2: Asistente de Cocina IA Antiinflamatoria", value: "$10,00 USD" },
-    { title: "Bono #3: Plantilla Organizadora de Menú & Planificador Semanal", value: "$7,00 USD" },
+    { title: "Bono #3: Guía de Conservación y Conservas", value: "$7,00 USD" },
   ];
 
   return (

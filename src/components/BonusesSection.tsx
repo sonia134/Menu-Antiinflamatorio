@@ -27,12 +27,12 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onCtaClick }) =>
     },
     {
       number: "BONO 3",
-      title: "Plantilla Organizadora de Menú & Planificador Semanal",
-      format: "Acceso Digital Imprimible & Móvil",
+      title: "Guía de Conservación y Conservas",
+      format: "Guía Digital en PDF HD",
       value: "$7,00 USD",
-      objection: "Me cuesta trabajo planificar la lista semanal y organizar los tiempos.",
-      description: "Un organizador digital semanal listo para imprimir o usar en tu teléfono para planificar tus comidas, tiempos de preparación y compras sin estrés.",
-      icon: "📋"
+      objection: "Tengo miedo de que la comida se eche a perder o pierda sus nutrientes.",
+      description: "Aprende las mejores técnicas de conservación, congelación correcta y conservas caseras para mantener tus alimentos y preparaciones frescas, seguras y llenas de nutrientes.",
+      icon: "🫙"
     }
   ];
 
