@@ -67,8 +67,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                   <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> Recetario Digital HD (+100 Recetas Antiinflamatorias)</li>
                   <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> Guía de Batch Cooking & Planificación Semanal</li>
                   <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> 🎁 Bono #1: Guía de Reemplazos & Lista de Compras</li>
-                  <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> 🎁 Bono #2: Recetario de Bebidas & Tisanas Anti-Hinchazón</li>
-                  <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> 🎁 Bono #3: Plantilla Organizadora & Asistente IA</li>
+                  <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> 🎁 Bono #2: Asistente de Cocina IA Antiinflamatoria</li>
+                  <li className="flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5 text-[#7ab648]" /> 🎁 Bono #3: Plantilla Organizadora & Planificador Semanal</li>
                 </ul>
               </div>
 

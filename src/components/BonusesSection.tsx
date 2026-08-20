@@ -18,21 +18,21 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onCtaClick }) =>
     },
     {
       number: "BONO 2",
-      title: "Recetario de Bebidas & Tisanas Anti-Hinchazón Inmediata",
-      format: "Ebook Especializado",
-      value: "$7,00 USD",
-      objection: "A veces necesito un alivio rápido después de una comida pesada fuera.",
-      description: "15 infusiones, elíxires dorados y smoothies digestivos para tomar por las mañanas o después de cenar para aplanar el abdomen.",
-      icon: "☕"
+      title: "Asistente de Cocina IA Antiinflamatoria",
+      format: "Acceso Digital Interactivo & Prompts",
+      value: "$10,00 USD",
+      objection: "Tengo ingredientes en la nevera pero no sé cómo combinarlos sin inflamarme.",
+      description: "Tu asistente virtual inteligente para crear recetas antiinflamatorias al instante según lo que tengas en casa y resolver sustituciones en segundos.",
+      icon: "🤖"
     },
     {
       number: "BONO 3",
-      title: "Plantilla Organizadora de Menú & Asistente IA de Cocina",
-      format: "Acceso Digital Exclusivo",
-      value: "$10,00 USD",
+      title: "Plantilla Organizadora de Menú & Planificador Semanal",
+      format: "Acceso Digital Imprimible & Móvil",
+      value: "$7,00 USD",
       objection: "Me cuesta trabajo planificar la lista semanal y organizar los tiempos.",
-      description: "Un organizador digital semanal listo para imprimir o usar en tu teléfono, más promts de IA para crear combinaciones según lo que tengas en la nevera.",
-      icon: "📱"
+      description: "Un organizador digital semanal listo para imprimir o usar en tu teléfono para planificar tus comidas, tiempos de preparación y compras sin estrés.",
+      icon: "📋"
     }
   ];
 
