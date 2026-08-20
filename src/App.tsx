@@ -18,7 +18,6 @@ import { DeepDiveSection } from './components/DeepDiveSection';
 import { TwoVersionsSection } from './components/TwoVersionsSection';
 import { FinalCierreSection } from './components/FinalCierreSection';
 import { FooterSection } from './components/FooterSection';
-import { MobileStickyBar } from './components/MobileStickyBar';
 import { CheckoutModal } from './components/CheckoutModal';
 import { RecipePreviewModal } from './components/RecipePreviewModal';
 
@@ -43,7 +42,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-[#1a1a1a] font-body selection:bg-[#7ab648] selection:text-[#1a3a1a] relative pb-16 md:pb-0">
+    <div className="min-h-screen bg-white text-[#1a1a1a] font-body selection:bg-[#7ab648] selection:text-[#1a3a1a] relative">
       {/* SECCIÓN 0 — BARRA DE ANUNCIO STICKY (TOP BAR) */}
       <AnnouncementBar onCtaClick={handleOpenCheckout} />
 
@@ -104,9 +103,6 @@ export default function App() {
 
       {/* SECCIÓN 17 — FOOTER */}
       <FooterSection />
-
-      {/* COMPONENTE GLOBAL — BARRA STICKY MOBILE */}
-      <MobileStickyBar onCtaClick={handleOpenCheckout} />
 
       {/* MODAL DE CHECKOUT & VISTA PREVIA DE RECETAS */}
       <CheckoutModal isOpen={isCheckoutOpen} onClose={handleCloseCheckout} />
