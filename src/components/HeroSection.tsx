@@ -37,23 +37,23 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSamp
           Descubre el Método de Cocina Eficiente y Saludable que te permite preparar platos deliciosos, variados y antiinflamatorios en menos de 30 minutos — sin dietas aburridas, sin ingredientes caros y sin esclavizarte en la cocina.
         </p>
 
-        {/* Digital Book Mockup */}
-        <div className="relative my-4 group cursor-pointer" onClick={onCtaClick}>
-          <div className="relative w-64 sm:w-80 md:w-96 animate-float mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.6)]">
+        {/* Digital Kit / Book Mockup */}
+        <div className="relative my-6 group cursor-pointer" onClick={onCtaClick}>
+          <div className="relative w-full max-w-[560px] sm:max-w-[680px] md:max-w-[760px] animate-float mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.6)]">
             <img 
-              src="https://i.postimg.cc/3xDpL7ds/menu-antiinflamatorio-book-1784763454049.webp" 
-              alt="Ebook Cocina Antiinflamatoria Express" 
+              src="https://i.postimg.cc/cCS0Z7nH/Gemini-Generated-Image-g3rr36g3rr36g3rr.jpg" 
+              alt="Pack Cocina Antiinflamatoria Express y Bonos" 
               referrerPolicy="no-referrer"
-              className="w-full h-auto rounded-lg border-2 border-[#7ab648]/40 object-cover shadow-2xl"
+              className="w-full h-auto rounded-xl border-2 border-[#7ab648]/40 object-cover shadow-2xl"
             />
             {/* Digital Bestseller Badge */}
-            <div className="absolute -top-3 -right-3 bg-[#7ab648] text-[#1a3a1a] font-heading font-extrabold text-xs sm:text-sm px-3 py-1.5 rounded-full shadow-lg border border-white/20 transform rotate-6">
-              ¡MÉTODO DIGITAL 2025!
+            <div className="absolute -top-3 -right-2 sm:-right-3 bg-[#7ab648] text-[#1a3a1a] font-heading font-extrabold text-xs sm:text-sm px-3.5 py-1.5 rounded-full shadow-lg border border-white/20 transform rotate-3">
+              ¡SISTEMA DIGITAL COMPLETO!
             </div>
             
             {/* Instant Download Tag */}
-            <div className="absolute -bottom-3 -left-3 bg-[#1a3a1a] border border-[#7ab648] text-white font-heading font-bold text-xs px-3 py-1 rounded-md shadow-lg flex items-center gap-1.5">
-              <ChefHat className="w-4 h-4 text-[#7ab648]" /> +100 Recetas Express
+            <div className="absolute -bottom-3 -left-2 sm:-left-3 bg-[#1a3a1a] border border-[#7ab648] text-white font-heading font-bold text-xs sm:text-sm px-3.5 py-1.5 rounded-md shadow-lg flex items-center gap-1.5">
+              <ChefHat className="w-4 h-4 text-[#7ab648]" /> +100 Recetas Express + Bonos
             </div>
           </div>
         </div>
