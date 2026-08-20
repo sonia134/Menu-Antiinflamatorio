@@ -58,28 +58,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick, onOpenSamp
           </div>
         </div>
 
-        {/* CTA Hero Button */}
-        <div className="w-full max-w-md mt-8 flex flex-col items-center">
-          <button
-            onClick={onCtaClick}
-            className="w-full btn-cta-standard text-lg sm:text-xl py-4 sm:py-5 px-8 font-heading font-extrabold flex items-center justify-center gap-2 text-[#1a3a1a] btn-cta-pulse cursor-pointer"
-          >
-            QUIERO EMPEZAR HOY — $7,99 USD
-          </button>
-
-          {/* Micro-copy under button */}
-          <p className="mt-3 text-white/70 text-xs sm:text-sm font-body font-medium flex items-center justify-center gap-2 flex-wrap">
-            <span>✅ Acceso inmediato</span>
-            <span>·</span>
-            <span>✅ Todo incluido</span>
-            <span>·</span>
-            <span>✅ Para siempre</span>
-          </p>
-
-          {/* Secondary preview sample recipe trigger */}
+        {/* Secondary preview sample recipe trigger */}
+        <div className="mt-6">
           <button 
             onClick={onOpenSampleRecipe}
-            className="mt-4 inline-flex items-center gap-2 text-white/80 hover:text-[#7ab648] text-xs sm:text-sm font-body underline transition-colors"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-[#7ab648] text-sm sm:text-base font-body underline transition-colors bg-white/5 hover:bg-white/10 px-5 py-2.5 rounded-full border border-white/10"
           >
             <Eye className="w-4 h-4 text-[#7ab648]" /> Ver vista previa de recetario de muestra gratis
           </button>
